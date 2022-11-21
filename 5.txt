@@ -1,0 +1,23 @@
+There are two methods two save images from website.
+1. Image Cyborg
+Image Cyborg is a web app that quickly downloads all the images of a web page. 
+This Handy tool has a simple and straightforward home interface just like a searching engine.
+We have now here to go except download the images.
+It comes with some apparent defects.
+Here are my using experiences.
+  1. Images are mostly low resolution and small sized. Yes, most of them are thumbnail images.
+  2. The zip files share the same name: [image-cyborg]. Need to rename the file one by one.
+  3. Some logos or avatars images will be packed but you might need them.
+2. extract.pics
+extract.pics is another geeky tool with a simple and clear interface.
+The best part is that we have the chance to preview all the images before downloading and selecting or deselect.
+However, we might bump into this error when we try to download all images with one click.
+we can write codes to achieve basically everything.
+Next, we'll learn the basic steps to use Python web scraping to download images. 
+First, we need to install Beautiful Soup by typing pip install bs4 command line.
+And type pip install requests to install requests.
+After that, follow the steps here:
+Import module > 
+Make requests instance and pass into URL > 
+Pass the requests into a Beautifulsoup() function >
+Use 'img' tag to find them all tag ('src').
